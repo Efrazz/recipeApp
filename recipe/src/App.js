@@ -1,11 +1,33 @@
 /** @format */
-import Button from "./components/Button";
+import { useState } from "react";
 import Header from "./components/Header";
-import header from "./components/Header";
+import Tasks from "./components/Tasks";
+
 function App() {
+	const [tasks, setTasks] = useState([
+		{
+			id: 1,
+			text: "Doctors Appointment",
+			day: "Feb 5th at 2:30pm",
+			reminder: true,
+		},
+		{
+			id: 2,
+			text: "Meeting school",
+			day: "jan 5th at 2:30pm",
+			reminder: true,
+		},
+		{
+			id: 3,
+			text: "Food Shopping",
+			day: "Feb 5th at 2:30pm",
+			reminder: false,
+		},
+	]);
 	return (
 		<div className='App'>
 			<Header />
+			<Tasks tasks={tasks} />
 		</div>
 	);
 }
