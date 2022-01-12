@@ -24,6 +24,18 @@ function App() {
 			day: "Feb 5th at 2:30pm",
 			reminder: false,
 		},
+		{
+			id: 3,
+			text: "Food Shopping",
+			day: "Feb 5th at 2:30pm",
+			reminder: false,
+		},
+		{
+			id: 3,
+			text: "Food Shopping",
+			day: "Feb 5th at 2:30pm",
+			reminder: false,
+		},
 	]);
 
 	//Delete Task
