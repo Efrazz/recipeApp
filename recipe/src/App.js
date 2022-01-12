@@ -9,13 +9,13 @@ function App() {
 		{
 			id: 1,
 			text: "Doctors Appointment",
-			day: "Feb 5th at 2:30pm",
+			day: "Feb 5th at 2:40pm",
 			reminder: true,
 		},
 		{
 			id: 2,
 			text: "Meeting school",
-			day: "jan 5th at 2:30pm",
+			day: "jan 5th at 2:40pm",
 			reminder: true,
 		},
 		{
